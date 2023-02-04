@@ -75,6 +75,7 @@ bash weak_test.sh
 ```
 
 # Training and testing DCMR
+For this task, we developed a cross-modal matching network. Here, we used visual feature vectors via global average pooling, and you can find [here](https://drive.google.com/file/d/1l-c8Kpr5SZ37h-NpL7o9u8YXBNVlX_Si/view). Please put the feature into ```data``` folder. Note that the code was implemented via Keras-2.0 with Tensorflow as the backend.
 
 Training
 

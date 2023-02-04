@@ -74,6 +74,24 @@ Evaluating
 bash weak_test.sh
 ```
 
+# Training and testing DCMR
+
+Training
+
+```ruby
+bash supv_train_a2v.sh
+bash supv_train_v2a.sh
+```
+
+Evaluating
+
+```ruby
+bash supv_test_a2v.sh
+bash supv_test_v2a.sh
+```
+
+
+
 # Citation
 
 Please cite the following paper if you feel this repo useful to your research
